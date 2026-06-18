@@ -94,14 +94,3 @@ The Verilog testbench verifies:
 * GTKWave
 * Git/GitHub
 
-## Key Concepts Demonstrated
-
-* RTL design
-* Synchronous sequential logic
-* FIFO memory behavior
-* Read/write pointer management
-* Occupancy counting
-* Full and empty flag generation
-* Overflow and underflow handling
-* Testbench development
-* Waveform-based verification
