@@ -46,6 +46,14 @@ Invalid operations are also detected:
 mkdir -p waveforms
 iverilog -o fifo_sim main.v tb_main.v
 vvp fifo_sim
+
+Expected terminal output:
+All FIFO tests passed.
+
+The simulation also generates a waveform file at:
+waveforms/sync_fifo.vcd
+
+To inspect the waveform manually, open the generated VCD file with GTKWave:
 gtkwave waveforms/sync_fifo.vcd
 ```
 
