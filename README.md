@@ -65,7 +65,7 @@ This verifies that reset initializes the FIFO into a clean starting state. After
 
 ### FIFO Order Verification
 
-![FIFO Order](Sync_FIFO_Buffer%20Screenshots/fifo_order.png)
+![FIFO Order](Sync_FIFO_Buffer%20Screenshots/FIFO_order.png)
 
 This verifies first-in, first-out behavior. The waveform shows values being written into the FIFO and later read back in the same order.
 
